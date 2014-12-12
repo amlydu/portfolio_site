@@ -208,7 +208,7 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 #nav-toggle.active span:after { transform: translateY(-10px) rotate(-45deg); -webkit-transform: translateY(-10px) rotate(-45deg); -ms-transform: translateY(-10px) rotate(-45deg); top: 10px; }
 .navicon { position: relative; height: 26px; }
 .indicator { position: absolute; right: 0 !important; }
-.pull { display: none; }
+.pull { display: block; }
 /* ==========================================================================
 Hero
 ========================================================================== */
