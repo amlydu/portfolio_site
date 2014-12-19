@@ -71,6 +71,15 @@ document.querySelector("#nav-toggle").addEventListener("click", function() {
 	this.classList.toggle("active");
 });
 
+/***************** Nav Media Query Interaction ******************/
+$(window).resize(function() {
+	if ($(window).width() >= 992) {
+		$(".row div").removeClass("col-sm-offset-2");
+	} else if ($(window).width() < 992){
+		$(".row div").addClass("col-sm-offset-2");
+	}
+});
+
 /***************** Overlays ******************/
 
 $(document).ready(function(){
