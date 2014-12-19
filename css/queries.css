@@ -31,6 +31,9 @@
 	.top-nav { width: 100%;}
 }
 
-/*@media screen and (max-width:892px) {876 width is where the text scrunches in- start hamburger there
-	.top-nav { width: 100%; padding: 0 0 0 29px; }
-} CHANGE TO HAMBURGER1111*/
+@media screen and (max-width: 876px) {
+	nav ul {display: inline-block; }
+	nav ul li { color: rgba(255, 255, 255, 0.6); display: block; border-bottom: 1px dotted rgba(255, 255, 255, 0.2); transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; padding-left: 0; position: relative; }
+	nav ul li:last-child { border: none; }
+	.indicator { display: block; position: absolute; right: 0 !important; }
+} 
