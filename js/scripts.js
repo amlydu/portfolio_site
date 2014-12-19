@@ -75,9 +75,9 @@ document.querySelector("#nav-toggle").addEventListener("click", function() {
 
 $(window).resize(function() {
 	if ($(window).width() >= 992) {
-		$("#offset-nav").removeClass("col-sm-offset-2");
+		$("#offset-nav div").removeClass("col-sm-offset-2");
 	} else if ($(window).width() < 992){
-		$("#offset-nav").addClass("col-sm-offset-2");
+		$("#offset-nav div").addClass("col-sm-offset-2");
 	}
 });
 
