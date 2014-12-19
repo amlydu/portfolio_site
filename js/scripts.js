@@ -72,11 +72,12 @@ document.querySelector("#nav-toggle").addEventListener("click", function() {
 });
 
 /***************** Nav Media Query Interaction ******************/
+
 $(window).resize(function() {
 	if ($(window).width() >= 992) {
-		$(".row div").removeClass("col-sm-offset-2");
+		$("#offset-nav").removeClass("col-sm-offset-2");
 	} else if ($(window).width() < 992){
-		$(".row div").addClass("col-sm-offset-2");
+		$("#offset-nav").addClass("col-sm-offset-2");
 	}
 });
 
