@@ -74,10 +74,12 @@ document.querySelector("#nav-toggle").addEventListener("click", function() {
 /***************** Nav Media Query Interaction ******************/
 
 $(window).resize(function() {
-	if ($(window).width() >= 992) {
-		$("#offset-nav div").removeClass("col-sm-offset-2");
-	} else if ($(window).width() < 992){
-		$("#offset-nav div").addClass("col-sm-offset-2");
+	var $windowWidth = $(window).width();
+	var $navDiv = $("#offset-nav div");
+	if ($windowWidth >= 992) {
+		$navDiv.removeClass("col-sm-offset-2 col-xs-offset-2");
+	} else if ($windowWidth < 992) {
+		$navDiv.addClass("col-sm-offset-2 col-xs-offset-2");
 	}
 });
 
