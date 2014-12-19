@@ -32,8 +32,9 @@
 }
 
 @media screen and (max-width: 876px) {
-	nav ul {display: inline-block; }
-	nav ul li { color: rgba(255, 255, 255, 0.6); display: block; border-bottom: 1px dotted rgba(255, 255, 255, 0.2); transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; padding-left: 0; position: relative; }
+	nav ul {display: block; }
+	nav ul li {border-bottom: 1px dotted rgba(255, 255, 255, 0.2);}
+	nav ul li a {display: block; padding-left: 0;}
 	nav ul li:last-child { border: none; }
-	.indicator { display: block; position: absolute; right: 0 !important; }
+	.indicator { display: inline-block; position: absolute; right: 0 !important; }
 } 
