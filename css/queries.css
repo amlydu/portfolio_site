@@ -32,9 +32,9 @@
 }
 
 @media screen and (max-width: 876px) {
-	nav { background-color: #3DC9B3; } /*Change the color to match original dropdown*/
+	nav { background-color: #3DC9B3; } 
 	nav ul {display: block; }
-	nav ul li {border-bottom: 1px dotted rgba(255, 255, 255, 0.2); }
+	nav ul li {border-bottom: 1px dotted rgba(255, 255, 255, 0.4); }
 	nav ul li a {display: block; padding-left: 0; }
 	nav ul li:last-child { border: none; }
 	.indicator { display: inline-block; position: absolute; right: 0 !important; }
