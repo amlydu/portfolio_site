@@ -194,7 +194,7 @@ nav { background-color: #3DC9B3; margin-top: -1px; }
 nav ul li { color: rgba(255, 255, 255, 0.6); font-size: 16px; display: block; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; padding-left: 0; position: relative; }
 nav ul { display: flex; float: right; padding-right: 75px; list-style: none;}
 nav ul li:last-child { border: none; }
-nav ul li a { color: rgba(53, 53, 53, 0.89); display: inline-flex; padding: 20px 0px 20px 40px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; position: relative; }
+nav ul li a { color: rgba(53, 53, 53, 0.89); display: inline-flex; padding: 10px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; position: relative; }
 nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 255, 255, 1); }
 #nav-toggle { position: absolute; right: 1px; top: 3px; }
 #nav-toggle { cursor: pointer; padding: 10px 50px 16px 0px; margin-top: 27px}
@@ -203,9 +203,9 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 #nav-toggle span:after { bottom: -10px; }
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after { transition: all 500ms ease-in-out; -webkit-transition: all 500ms ease-in-out; -moz-transition: all 500ms ease-in-out; -o-transition: all 500ms ease-in-out; }
 #nav-toggle.active span { background-color: transparent; }
-#nav-toggle.active span:before, #nav-toggle.active span:after { top: 0; }
+#nav-toggle.active span:before, #nav-toggle.active span:after { top: -9; }
 #nav-toggle.active span:before { transform: rotate(45deg); -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); }
-#nav-toggle.active span:after { transform: translateY(-10px) rotate(-45deg); -webkit-transform: translateY(-10px) rotate(-45deg); -ms-transform: translateY(-10px) rotate(-45deg); top: 10px; }
+#nav-toggle.active span:after { transform: translateY(-10px) rotate(-45deg); -webkit-transform: translateY(-10px) rotate(-45deg); -ms-transform: translateY(-10px) rotate(-45deg); top: 1px; }
 .navicon { position: inherit; height: 26px; }
 .pull { display: block; }
 .indicator { display: none;}
