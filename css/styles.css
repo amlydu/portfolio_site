@@ -205,7 +205,7 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 #nav-toggle.active span { background-color: transparent; }
 #nav-toggle.active span:before, #nav-toggle.active span:after { top: -9; }
 #nav-toggle.active span:before { transform: rotate(45deg); -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); }
-#nav-toggle.active span:after { transform: translateY(-10px) rotate(-45deg); -webkit-transform: translateY(-10px) rotate(-45deg); -ms-transform: translateY(-10px) rotate(-45deg); top: 1px; }
+#nav-toggle.active span:after { transform: translateY(-10px) rotate(-45deg); -webkit-transform: translateY(-10px) rotate(-45deg); -ms-transform: translateY(-10px) rotate(-45deg); top: 0px; }
 .navicon { position: inherit; height: 26px; }
 .pull { display: block; }
 .indicator { display: none;}
