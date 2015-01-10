@@ -38,4 +38,8 @@
 	nav ul li a {display: block; padding-left: 0; }
 	nav ul li:last-child { border: none; }
 	.indicator { display: inline-block; position: absolute; right: 0 !important; }
-} 
+}
+
+@media screen and (max-width: 560px) {
+	.top-nav { width: 100%;} }
+}
