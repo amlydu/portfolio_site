@@ -30,7 +30,9 @@
 	.credit { text-align: center; }
 	.top-nav { width: 87%;}
 }
-
+@media screen and (min-width:992px){
+	.container#change-width { width:1000px }
+}
 @media screen and (max-width: 876px) {
 	nav { background-color: #3DC9B3; } 
 	nav ul {display: block; }
