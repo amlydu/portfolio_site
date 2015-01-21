@@ -190,7 +190,7 @@ h2::after { content: " "; border: solid 2px #3dc9b3; display: block; width: 35px
 /* ==========================================================================
 Navigation
 ========================================================================== */
-nav { background-color: #3DC9B3; margin-top: -1px; }
+nav { background-color: #3DC9B3; border-bottom: 2px solid rgba(48, 147, 131, 0.4); margin-top: -1px; }
 nav ul li { color: rgba(255, 255, 255, 0.6); font-size: 16px; display: block; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; padding-left: 0; position: relative; }
 nav ul { display: flex; float: right; padding-right: 75px; list-style: none;}
 nav ul li:last-child { border: none; }
