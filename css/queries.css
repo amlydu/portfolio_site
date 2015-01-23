@@ -29,6 +29,7 @@
 	.legals { text-align: center; margin: 0; padding: 0; }
 	.credit { text-align: center; }
 	.top-nav { width: 90%;}
+	.nav_logo { left: -161px; }
 }
 @media screen and (min-width:992px){
 	.container#change-width { width:1000px }
@@ -40,6 +41,7 @@
 	nav ul li a {display: block; padding-left: 0; }
 	nav ul li:last-child { border: none; }
 	.indicator { display: inline-block; position: absolute; right: 0 !important; }
+	.nav_logo {display: none; }
 }
 
 @media screen and (max-width: 560px) {
