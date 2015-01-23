@@ -29,15 +29,14 @@ html { font-size: 100%; /* 1 */
 html, html a { -webkit-font-smoothing: antialiased; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
 /* * Addresses `font-family` inconsistency between `textarea` and other form
 * elements. */
-html, button, input, select, textarea { font-family: 'Varela Round', sans-serif; }
+html, button, input, select, textarea { font-family: 'Trebuchet MS', 'Varela Round', sans-serif; }
 /* * Addresses margins handled incorrectly in IE 6/7. */
-body { margin: 0; font-family: 'Varela Round', sans-serif; }
+body { margin: 0; font-family: 'Trebuchet MS', 'Varela Round', sans-serif; }
 /* ==========================================================================
 Links
 ========================================================================== */
 /* * Addresses `outline` inconsistency between Chrome and other browsers. */
- 
-a:focus { outline: thin dotted; }
+/*a:focus { outline: thin dotted; }*/
 /* * Improves readability when focused and also mouse hovered in all browsers. */
 a:active, a:hover { outline: 0; }
 /* ==========================================================================
@@ -216,7 +215,7 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: #353535; }
 Hero
 ========================================================================== */
 .hero { background: url('../img/hero-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto; }
-.hero h1 { font-size: 3.5em; letter-spacing: 10px; margin: 10px; text-shadow: -4px -4px 11px #FFF; }
+.hero h1 { font-size: 4.2em; letter-spacing: 11px; margin: 10px; text-shadow: -4px -4px 11px #FFF; }
 .hero h1 span { display: inline-block; }
 .hero p { font-size: 1.2em; letter-spacing: 1px; color: rgba(53, 53, 53, 0.75); }
 .learn-more-btn { background: rgba(61, 201, 179, 1); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #309383; -moz-box-shadow: 0px 3px 0px 0px #309383; box-shadow: 0px 3px 0px 0px #309383; margin: 60px 0 0; font-weight: bold; }
