@@ -28,7 +28,7 @@
 	.wp2, .wp4, .wp5, .light-box { margin-bottom: 30px; }
 	.legals { text-align: center; margin: 0; padding: 0; }
 	.credit { text-align: center; }
-	.top-nav { width: 87%;}
+	.top-nav { width: 90%;}
 }
 @media screen and (min-width:992px){
 	.container#change-width { width:1000px }
