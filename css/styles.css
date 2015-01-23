@@ -29,15 +29,14 @@ html { font-size: 100%; /* 1 */
 html, html a { -webkit-font-smoothing: antialiased; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
 /* * Addresses `font-family` inconsistency between `textarea` and other form
 * elements. */
-html, button, input, select, textarea { font-family: 'Varela Round', sans-serif; }
+html, button, input, select, textarea { font-family: 'Trebuchet MS', 'Varela Round', sans-serif; }
 /* * Addresses margins handled incorrectly in IE 6/7. */
-body { margin: 0; font-family: 'Varela Round', sans-serif; }
+body { margin: 0; font-family: 'Trebuchet MS', 'Varela Round', sans-serif; }
 /* ==========================================================================
 Links
 ========================================================================== */
 /* * Addresses `outline` inconsistency between Chrome and other browsers. */
- 
-a:focus { outline: thin dotted; }
+/*a:focus { outline: thin dotted; }*/
 /* * Improves readability when focused and also mouse hovered in all browsers. */
 a:active, a:hover { outline: 0; }
 /* ==========================================================================
@@ -194,7 +193,7 @@ nav { background-color: #3DC9B3; border-bottom: 2px solid rgba(48, 147, 131, 0.4
 nav ul li { color: rgba(255, 255, 255, 0.6); font-size: 16px; display: block; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; padding-left: 0; position: relative; }
 nav ul { display: flex; float: right; padding-right: 75px; list-style: none;}
 nav ul li:last-child { border: none; }
-nav ul li a { color: #FFF; 1px 1px 9px; text-shadow: 3px 4px 9px rgb(109, 159, 184); display: inline-flex; padding: 10px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; position: relative; }
+nav ul li a { color: #FFF; 1px 1px 9px; font-weight: bold; display: inline-flex; padding: 10px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; position: relative; }
 nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: #353535; }
 #nav-toggle { position: absolute; right: 1px; top: 3px; }
 #nav-toggle { cursor: pointer; padding: 10px 50px 16px 0px; margin-top: 27px}
@@ -209,13 +208,16 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: #353535; }
 .navicon { position: inherit; height: 26px; }
 .pull { display: block; }
 .indicator { display: none;}
+.nav_logo {position: absolute; z-index: 1000}
+.nav_logo_image { background: url('../img/myLogoWht.png') no-repeat center center; background-size: 121px; background-repeat: no-repeat; height: 71px; width: 71px; }
+.nav_logo_image:hover { background: url('../img/myLogoThickerLtB.png') no-repeat center center; background-size: 121px; background-repeat: no-repeat; height: 71px; width: 90px; }
 /* ==========================================================================
 Hero
 ========================================================================== */
 .hero { background: url('../img/hero-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto; }
-.hero h1 { font-size: 3.5em; letter-spacing: 10px; margin: 10px; text-shadow: -4px -4px 11px #FFF; }
+.hero h1 { font-size: 4.2em; letter-spacing: 11px; margin: 10px; text-shadow: -4px -4px 11px #FFF; }
 .hero h1 span { display: inline-block; }
-.hero p { font-size: 1.2em; letter-spacing: 1px; text-shadow: -2px -2px 4px #FFF; color: rgba(53, 53, 53, 0.75); }
+.hero p { font-size: 1.2em; letter-spacing: 1px; color: rgba(53, 53, 53, 0.75); }
 .learn-more-btn { background: rgba(61, 201, 179, 1); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #309383; -moz-box-shadow: 0px 3px 0px 0px #309383; box-shadow: 0px 3px 0px 0px #309383; margin: 60px 0 0; font-weight: bold; }
 .learn-more-btn:hover, .learn-more-btn:focus { background: rgba(61, 201, 179, 0.6); color: #fff; }
 /* ==========================================================================
