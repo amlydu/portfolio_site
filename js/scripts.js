@@ -32,6 +32,16 @@ $(document).ready(function() {
 	}, {
 		offset: '75%'
 	});
+	$('.wpT').waypoint(function() {
+		$('.wpT').addClass('animated fadeInLeft');
+	}, {
+		offset: '75%'
+	});
+	$('.wpA').waypoint(function() {
+		$('.wpA').addClass('animated fadeInDown');
+	}, {
+		offset: '75%'
+	});
 
 });
 

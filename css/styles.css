@@ -320,19 +320,21 @@ ul.slides li { margin-bottom: 20px; }
 /* ==========================================================================
 Waypoints
 ========================================================================== */
-.wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { visibility: hidden; }
+.wp1, .wp2, .wp3, .wp4, .wp5, .wp6, .wpT, .wpA { visibility: hidden; }
 .bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight { visibility: visible; }
 .delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
 .delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
-.delay-1halfs { animation-delay: 1.5s; -webkit-animation-delay: 1.5s; }
+/*.delay-1halfs { animation-delay: 1.5s; -webkit-animation-delay: 1.5s; }
 .delay-2s { animation-delay: 2s; -webkit-animation-delay: 2s; }
-.delay-2halfs { animation-delay: 2.5s; -webkit-animation-delay: 2.5s; }
+.delay-2halfs { animation-delay: 2.5s; -webkit-animation-delay: 2.5s; }*/
 .wp3 { background: url('../img/iphone-bg.png') no-repeat center center; background-position: 200px 10px; height: 100%; }
 /* ==========================================================================
 Timeline and Timeline Queries
 ========================================================================== */
 section#about { padding-top: 90px; }
-h3.section-subheading.text-muted { padding-bottom: 25px;}
+h3.section-subheading.text-muted { padding-bottom: 25px; }
+.timeline-image h4 a { color: #FFF; }
+.timeline-image h4 a:hover { color: #353535; }
 .timeline{position:relative;padding:0;list-style:none}
 .timeline:before{content:"";position:absolute;top:0;bottom:0;left:40px;width:3px;margin-left:-1.5px;background-color:rgba(53, 53, 53, 0.9);}
 .timeline>li{position:relative;margin-bottom:50px;min-height:50px}
