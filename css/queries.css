@@ -43,7 +43,6 @@
 	.indicator { display: inline-block; position: absolute; right: 0 !important; }
 	.nav_logo {display: none; }
 }
-
 @media screen and (max-width: 560px) {
 	.top-nav { width: 100%;} }
 }
