@@ -284,7 +284,7 @@ CTA
 /* ==========================================================================
 Team
 ========================================================================== */
-.team img { margin-bottom: 40px; }
+.team img { margin-bottom: 40px; margin-top: -30px; }
 ul.social-buttons { list-style: none; margin: 0; padding: 0; }
 ul.social-buttons li { display: inline-block; margin-right: 10px; }
 ul.social-buttons li:last-child { margin-right: 0; }
@@ -315,8 +315,8 @@ ul.legals li:last-child::after { content: ""; }
 /* ==========================================================================
 FlexSlider Custom CSS
 ========================================================================== */
-#servicesSlider { margin-top: 70px; }
-ul.slides li { margin-bottom: 13px; }
+#selfSectionChg { margin-top: 70px; }
+ul.selfSection li { margin-bottom: 13px; }
 /* ==========================================================================
 Waypoints
 ========================================================================== */
