@@ -167,25 +167,24 @@ $(window).load(function() {
 /***************** Quote Slideshow ******************/
 
 $(document).ready(function(){
- 
-var counter = 0,
-$items = $('.quote-slideshow figure'),
-numItems = $items.length;
- 
-var showCurrent = function(){
-var itemToShow = Math.abs(counter%numItems);
-$items.removeClass('show');
-$items.eq(itemToShow).addClass('show');
-};
- 
-$('.quote-next').on('click', function(){
-counter++;
-showCurrent();
-});
- 
-$('.quote-prev').on('click', function(){
-counter--;
-showCurrent();
-});
+	var counter = 0,
+	$items = $('.quote-slideshow figure'),
+	numItems = $items.length;
+	 
+	var showCurrent = function(){
+		var itemToShow = Math.abs(counter%numItems);
+		$items.removeClass('show');
+		$items.eq(vaitemToShow).addClass('show');
+	};
+	 
+	$('.quote-next').on('click', function(){
+		counter++;
+		showCurrent();
+	});
+	 
+	$('.quote-prev').on('click', function(){
+		counter--;
+		showCurrent();
+	});
  
 });
