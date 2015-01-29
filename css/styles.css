@@ -209,7 +209,7 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: #353535; }
 .pull { display: block; }
 .indicator { display: none;}
 .nav_logo {position: absolute; z-index: 1000}
-.nav_logo_image { background: url('../img/myLogoWht.png') no-repeat center center; background-size: 121px; background-repeat: no-repeat; height: 71px; width: 71px; }
+.nav_logo_image { background: url('../img/myLogoWht.png') no-repeat center center; background-size: 90px; background-repeat: no-repeat; height: 71px; width: 71px; }
 .nav_logo_image:hover { background: url('../img/myLogoThickerLtB.png') no-repeat center center; background-size: 121px; background-repeat: no-repeat; height: 71px; width: 90px; }
 /* ==========================================================================
 Hero
@@ -267,6 +267,24 @@ a.expand { display: block; position: absolute; z-index: 100; text-align: center;
 .img img { width: -webkit-calc(100% + 40px) !important; width: calc(100% + 40px) !important; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -moz-transition: opacity 0.35s, -moz-transform 0.35s; -o-transition: opacity 0.35s, -o-transform 0.35s; -webkit-transform: translate3d(-40px, 0, 0); transform: translate3d(-40px, 0, 0); -ms-transform: translate3d(-40px, 0, 0); }
 .img:hover img { -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); -ms-transform: translate3d(-40px, 0, 0); }
 .designs { position: absolute; left: 0; right: 0; margin-left: auto; margin-right: auto; top: 115px; }
+/* ==========================================================================
+Quote Slideshow
+========================================================================== */
+.slideshow, .quote-slideshow { position: relative; display: block; overflow: hidden; }
+.next, .prev, .quote-next, .quote-prev{ color: #fff; position: absolute; top: 50%; z-index: 1; margin-top: -.75em; user-select: none; transition: 0.5s ease; -moz-transition: 0.5s ease; -webkit-transition: 0.5s ease; -o-transition: 0.5s ease; }
+.next:hover, .prev:hover, .quote-next:hover, .quote-prev:hover{ cursor: pointer; color: #6dbeaa; }
+.next, .quote-next { right: 15px; }
+.prev, .quote-prev{ left: 15px; }
+figure{ position: absolute; opacity: 0; transition: 1s opacity; width: 100%; }
+figure.show { opacity: 1; position: absolute; position: static; transition: 1s opacity; }
+figcaption{ font-size: 18px; color: #fff; text-align: center; text-transform: uppercase; text-align: right; font-weight: 800; }
+figcaption a{ color: #fff; }
+.quote-container { background-color: #3DC9B3; padding: 50px 0; }
+.quote-slideshow { height: auto; }
+.quote-slideshow h2 { color: #fff; font-size: 2em; font-weight: 100; font-style: italic; text-transform: none; }
+.quote-slideshow h2::after { display: none; }
+.circle { background-color: rgba(0,0,0,0.1); width: 40px; height: 40px; border-radius: 50%; text-align: center; }
+.circle i { margin-top: 6px; }
 /* ==========================================================================
 Subscribe
 ========================================================================== */
@@ -376,4 +394,3 @@ img.img-responsive { height: 100%; }
 	.timeline>li .timeline-image h4{margin-top:40px}
 	.timeline>li.timeline-inverted>.timeline-panel{padding:21px 75px 20px 20px}
 }
-
