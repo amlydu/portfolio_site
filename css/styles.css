@@ -209,7 +209,7 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: #353535; }
 .pull { display: block; }
 .indicator { display: none;}
 .nav_logo {position: absolute; z-index: 1000}
-.nav_logo_image { background: url('../img/myLogoWht.png') no-repeat center center; background-size: 121px; background-repeat: no-repeat; height: 71px; width: 71px; }
+.nav_logo_image { background: url('../img/myLogoWht.png') no-repeat center center; background-size: 90px; background-repeat: no-repeat; height: 71px; width: 71px; }
 .nav_logo_image:hover { background: url('../img/myLogoThickerLtB.png') no-repeat center center; background-size: 121px; background-repeat: no-repeat; height: 71px; width: 90px; }
 /* ==========================================================================
 Hero
@@ -230,13 +230,14 @@ h1.arrow { font-size: 15px; text-transform: uppercase; color: #353535; letter-sp
 /* ==========================================================================
 Features
 ========================================================================== */
-.features-wrapper, .team-wrapper { margin: 70px 0 0; }
+.features h2 { margin-top: 45px}
+.features-wrapper, .team-wrapper { margin: 40px 0 0; }
 .shadow { text-shadow: rgb(55, 181, 161) 1px 1px, rgb(55, 181, 161) 2px 2px, rgb(55, 181, 161) 3px 3px, rgb(55, 181, 161) 4px 4px, rgb(55, 181, 161) 5px 5px, rgb(55, 181, 161) 6px 6px, rgb(55, 181, 161) 7px 7px, rgb(55, 181, 161) 8px 8px, rgb(55, 181, 161) 9px 9px, rgb(55, 181, 161) 10px 10px, rgb(55, 181, 161) 11px 11px, rgb(55, 181, 161) 12px 12px, rgb(55, 182, 162) 13px 13px, rgb(55, 183, 163) 14px 14px, rgb(56, 184, 164) 15px 15px, rgb(56, 185, 165) 16px 16px, rgb(56, 186, 166) 17px 17px, rgb(57, 187, 167) 18px 18px, rgb(57, 188, 168) 19px 19px, rgb(57, 189, 169) 20px 20px, rgb(58, 191, 170) 21px 21px, rgb(58, 192, 171) 22px 22px, rgb(58, 193, 172) 23px 23px, rgb(59, 194, 173) 24px 24px, rgb(59, 195, 174) 25px 25px, rgb(59, 196, 175) 26px 26px, rgb(60, 197, 176) 27px 27px, rgb(60, 198, 177) 28px 28px, rgb(60, 199, 178) 29px 29px, rgb(61, 201, 179) 30px 30px; }
 .icon { height: 154px; width: 154px; line-height: 152px; max-width: 100%; background: #3dc9b3; border-radius: 50%; -o-border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; display: block; color: #fff; font-size: 55px; text-align: center; vertical-align: middle; position: relative; margin: 0 auto 20px; }
 /* ==========================================================================
 iPhone Section
 ========================================================================== */
-.iphone { width: 50%; background: #f3f5f8; float: left; height: 100%; box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); -webkit-box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); z-index: 1; }
+.iphone { width: 50%; background: #FFF; float: left; height: 100%; z-index: 1; }
 .fluid-white { width: 50%; background: #fff; float: right; height: 100%; z-index: 2; }
 .responsive-services { position: relative; }
 /* ==========================================================================
@@ -251,7 +252,7 @@ Swag
 Portfolio
 ========================================================================== */
 .effects { padding-left: 15px; }
-.effects .img { position: relative; margin-bottom: 50px; position: relative; z-index: 1; overflow: hidden; border: 2px solid rgba(61, 201, 179, .5); border-radius: 5px; }
+.effects .img { position: relative; margin-bottom: 50px; position: relative; z-index: 1; overflow: hidden; border: 6px solid rgba(61, 201, 179, .5); border-radius: 5px; }
 .effects .img:nth-child(n) { margin-right: 5px; }
 .effects .img:first-child { margin-left: -15px; }
 .effects .img:last-child { margin-right: 0; }
@@ -267,6 +268,24 @@ a.expand { display: block; position: absolute; z-index: 100; text-align: center;
 .img img { width: -webkit-calc(100% + 40px) !important; width: calc(100% + 40px) !important; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -moz-transition: opacity 0.35s, -moz-transform 0.35s; -o-transition: opacity 0.35s, -o-transform 0.35s; -webkit-transform: translate3d(-40px, 0, 0); transform: translate3d(-40px, 0, 0); -ms-transform: translate3d(-40px, 0, 0); }
 .img:hover img { -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); -ms-transform: translate3d(-40px, 0, 0); }
 .designs { position: absolute; left: 0; right: 0; margin-left: auto; margin-right: auto; top: 115px; }
+/* ==========================================================================
+Quote Slideshow
+========================================================================== */
+.slideshow, .quote-slideshow { position: relative; display: block; overflow: hidden; }
+.next, .prev, .quote-next, .quote-prev{ color: #fff; position: absolute; top: 50%; z-index: 1; margin-top: -.75em; user-select: none; transition: 0.5s ease; -moz-transition: 0.5s ease; -webkit-transition: 0.5s ease; -o-transition: 0.5s ease; }
+.next:hover, .prev:hover, .quote-next:hover, .quote-prev:hover{ cursor: pointer; color: #6dbeaa; }
+.next, .quote-next { right: 15px; }
+.prev, .quote-prev{ left: 15px; }
+figure{ position: absolute; opacity: 0; transition: 1s opacity; width: 100%; }
+figure.show { opacity: 1; position: absolute; position: static; transition: 1s opacity; }
+figcaption{ font-size: 18px; color: #fff; text-align: center; text-transform: uppercase; text-align: right; font-weight: 800; }
+figcaption a{ color: #fff; }
+.quote-container { background-color: #3DC9B3; padding: 50px 0; }
+.quote-slideshow { height: auto; }
+.quote-slideshow h2 { color: #fff; font-size: 2em; font-weight: 100; font-style: italic; text-transform: none; }
+.quote-slideshow h2::after { display: none; }
+.circle { background-color: rgba(0,0,0,0.1); width: 40px; height: 40px; border-radius: 50%; text-align: center; }
+.circle i { margin-top: 6px; }
 /* ==========================================================================
 Subscribe
 ========================================================================== */
@@ -327,7 +346,7 @@ Waypoints
 /*.delay-1halfs { animation-delay: 1.5s; -webkit-animation-delay: 1.5s; }
 .delay-2s { animation-delay: 2s; -webkit-animation-delay: 2s; }
 .delay-2halfs { animation-delay: 2.5s; -webkit-animation-delay: 2.5s; }*/
-.wp3 { background: url('../img/iphone-bg.png') no-repeat center center; background-position: 200px 10px; height: 100%; }
+.wp3 { background: url('../img/iphone-bg-1.png') no-repeat center center;/* background-position: 200px 10px; */height: 100%; }
 /* ==========================================================================
 Timeline and Timeline Queries
 ========================================================================== */
@@ -376,4 +395,3 @@ img.img-responsive { height: 100%; }
 	.timeline>li .timeline-image h4{margin-top:40px}
 	.timeline>li.timeline-inverted>.timeline-panel{padding:21px 75px 20px 20px}
 }
-
