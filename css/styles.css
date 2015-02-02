@@ -346,7 +346,7 @@ Waypoints
 /*.delay-1halfs { animation-delay: 1.5s; -webkit-animation-delay: 1.5s; }
 .delay-2s { animation-delay: 2s; -webkit-animation-delay: 2s; }
 .delay-2halfs { animation-delay: 2.5s; -webkit-animation-delay: 2.5s; }*/
-.wp3 { background: url('../img/iphone-bg-1.png') no-repeat center center;/* background-position: 200px 10px; */height: 100%; }
+.wp3 { background: url('../img/iphone-bg-4.png') no-repeat center center;/* background-position: 200px 10px; */height: 100%; }
 /* ==========================================================================
 Timeline and Timeline Queries
 ========================================================================== */
