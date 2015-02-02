@@ -174,7 +174,7 @@ $(document).ready(function(){
 	var showCurrent = function(){
 		var itemToShow = Math.abs(counter%numItems);
 		$items.removeClass('show');
-		$items.eq(vaitemToShow).addClass('show');
+		$items.eq(itemToShow).addClass('show');
 	};
 	 
 	$('.quote-next').on('click', function(){
